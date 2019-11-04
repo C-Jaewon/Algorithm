@@ -1,5 +1,7 @@
-//for문 3개를 돌리면 된다. 하지만 
-
+//for문 3개를 돌리면 된다.
+/*
+next_permutation 감소수열로 만들어 준다. next_permutaion(a.begin(), a.end())
+*/
 #include <iostream>
 #include <algorithm>
 
