@@ -6,7 +6,27 @@ O(N)
 */
 #include <iostream>
 #include <algorithm>
-
+/*
+bool next_permutation(int *first, int *last){
+   int *next = last;
+   if (first == last || first == (--next))
+      return false;
+   
+   for(;;){
+      int *next1 = next;
+      if(*(--next) < *next1){
+         int *mid = last;
+         for(; !(*next < *(--mid)););
+         swap(*next, *mid);
+         reverse(next1, last);
+         return true;
+      }
+      if (next == first){
+         reverse(first, last);
+         return false;
+   }
+}
+*/
 int main(){
    int N, M, max = 0;
    int *arr, *perm;
