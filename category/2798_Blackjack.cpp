@@ -1,6 +1,8 @@
 //for문 3개를 돌리면 된다.
 /*
 next_permutation 감소수열로 만들어 준다. next_permutaion(a.begin(), a.end())
+시간 복잡도 (last - first)/2 * N
+O(N)
 */
 #include <iostream>
 #include <algorithm>
